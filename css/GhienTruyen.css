@@ -23,6 +23,9 @@ div.logo > img {
   height: 50%;
 }
 
+div.logo > img:hover {
+  transform: scale(1.05);
+}
 div.search_bar {
   width: 30%;
   float: left;
@@ -69,13 +72,6 @@ div.sort {
   margin: 1.2% 0 1% 5%;
 }
 
-div.sort > a > button {
-  width: 100px;
-  height: 22px;
-  border-radius: 7px;
-  cursor: pointer;
-}
-
 div.signUp_login {
   float: right;
   width: 16.5%;
@@ -83,13 +79,25 @@ div.signUp_login {
 }
 
 div.signUp_login > a > button {
-  width: 90px;
-  height: 22px;
   margin: 0 2px 0 2px;
-  border-radius: 7px;
-  cursor: pointer;
 }
 
+.header_button {
+  width: 100px;
+  height: 22px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6f6d6d;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.header_button:hover {
+  color: black;
+  box-shadow: 2px 3px 0.6px #292828;
+}
 /*CSS NAVIGATIOM*/
 nav {
   background-color: #ffffff;
